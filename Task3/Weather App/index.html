@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | Real-Time Weather Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="weather-card">
+            <h1>Weather App</h1>
+            <p class="subtitle">Get real-time weather information for any city</p>
+            
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="cityInput" 
+                    class="city-input" 
+                    placeholder="Enter city name..."
+                    autocomplete="off"
+                >
+                <button id="searchBtn" class="search-btn">Search</button>
+            </div>
+
+            <div id="errorMessage" class="error-message hidden">
+                City not found. Please try again.
+            </div>
+
+            <div id="weatherInfo" class="weather-info hidden">
+                <div class="weather-details">
+                    <h2 id="cityName" class="city-name">London</h2>
+                    <div class="temperature-container">
+                        <span id="temperature" class="temperature">15.5C</span>
+                    </div>
+                    <p id="weatherCondition" class="weather-condition">partly cloudy</p>
+                    <div class="humidity-container">
+                        <span class="humidity-label">Humidity:</span>
+                        <span id="humidity" class="humidity-value">72</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
