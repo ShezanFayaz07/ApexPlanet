@@ -1,4 +1,4 @@
-const API_KEY = '62dcc3c1a9bd4392af0133641260101'; 
+const API_KEY = ''; 
 const API_URL = 'https://api.weatherapi.com/v1/current.json';
 
 const errorMessage = document.getElementById('errorMessage');
@@ -81,6 +81,7 @@ function showWeather(){
 function hideWeather(){
     weatherInfo.classList.add('hidden');
 }
+
 
 
 
