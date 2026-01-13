@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Shezan Fayaz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Shezan Fayaz</h1>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section id="home" class="home-section">
+            <div class="home-content">
+                <p class="greeting">Hello, I'm</p>
+                <h2 class="main-heading">Shezan Fayaz</h2>
+                <p class="description">A passionate web developer crafting beautiful and functional digital experiences
+                </p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+            <div class="home-image">
+                <img src="/images/Hero.png" alt="Shezan Fayaz portfolio hero image">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-image">
+                <img src="/images/About.png" alt="About Shezan Fayaz">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I'm a dedicated web developer with a passion for creating responsive and user-friendly websites. With
+                    expertise in modern web technologies, I bring ideas to life through clean code and thoughtful
+                    design.</p>
+                <p>My journey in web development has equipped me with skills in front-end technologies, UI/UX
+                    principles, and performance optimization. I'm constantly learning and adapting to the ever-evolving
+                    digital landscape to deliver exceptional results.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="/images/Project1.png" alt="Dynamic To-Do List Application">
+                    <h3>Dynamic To-Do List</h3>
+                    <p>An interactive task management application built with vanilla JavaScript, featuring add, edit,
+                        and delete functionality with local storage integration.</p>
+                </div>
+                <div class="project-card">
+                    <img src="/images/Project2.png" alt="Glass Calculator Application">
+                    <h3>Weather App (API Based)</h3>
+                    <p>
+                        A responsive web application that fetches real-time weather data using a public API, allowing
+                        users to check current conditions, temperature, humidity, and forecasts for any location.
+                    </p>
+
+                </div>
+                <div class="project-card">
+                    <img src="/images/Portfolio.png" alt="Responsive Portfolio Website">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern, fully responsive portfolio showcasing web development projects with smooth animations
+                        and cross-device compatibility.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <h3>Email</h3>
+                        <p>shezanf07@gmail.com</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Phone</h3>
+                        <p>+91 9999999999</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shezan Fayaz. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://github.com/ShezanFayaz07" aria-label="GitHub" class="icon-link"><img src="/images/github.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/shezan-fayaz-6a2982310/" aria-label="LinkedIn" class="icon-link"><img src="/images/linkedin2.svg" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/shezanfayaz07/" aria-label="Twitter" class="icon-link"><img src="/images/instagram.svg" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
