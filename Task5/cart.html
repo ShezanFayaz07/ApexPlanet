@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - ShopEase</title>
+    <meta name="description" content="Review your cart and checkout your selected items.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🛍️</span>
+                <span>Shop</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">← Back to Store</a>
+                <a href="cart.html" class="cart-link" id="cart-link">
+                    <span class="cart-icon">🛒</span>
+                    <span>Cart</span>
+                    <span class="cart-count" id="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="cart-header">
+            <h1>Shopping Cart <span class="item-count" id="item-count"></span></h1>
+        </div>
+
+        <!-- Cart Container -->
+        <div class="cart-container" id="cart-container">
+        </div>
+    </main>
+
+    <script src="js/cart.js"></script>
+</body>
+
+</html>

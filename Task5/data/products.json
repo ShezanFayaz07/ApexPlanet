@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Headphones",
+    "price": 2999,
+    "originalPrice": null,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
+    "rating": 4.5,
+    "reviewCount": 128,
+    "badge": "bestseller"
+  },
+  {
+    "id": 2,
+    "title": "Smart Watch",
+    "price": 4999,
+    "originalPrice": null,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 256,
+    "badge": "new"
+  },
+  {
+    "id": 3,
+    "title": "Cotton T-Shirt",
+    "price": 599,
+    "originalPrice": 799,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop",
+    "rating": 4.2,
+    "reviewCount": 89,
+    "badge": "sale"
+  },
+  {
+    "id": 4,
+    "title": "Denim Jacket",
+    "price": 2499,
+    "originalPrice": null,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=300&fit=crop",
+    "rating": 4.6,
+    "reviewCount": 67,
+    "badge": null
+  },
+  {
+    "id": 5,
+    "title": "Leather Wallet",
+    "price": 999,
+    "originalPrice": 1299,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&h=300&fit=crop",
+    "rating": 4.3,
+    "reviewCount": 145,
+    "badge": "sale"
+  },
+  {
+    "id": 6,
+    "title": "Sunglasses",
+    "price": 1599,
+    "originalPrice": null,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=300&fit=crop",
+    "rating": 4.4,
+    "reviewCount": 203,
+    "badge": "bestseller"
+  },
+  {
+    "id": 7,
+    "title": "Bluetooth Speaker",
+    "price": 3499,
+    "originalPrice": null,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop",
+    "rating": 4.7,
+    "reviewCount": 312,
+    "badge": "new"
+  },
+  {
+    "id": 8,
+    "title": "Running Shoes",
+    "price": 3999,
+    "originalPrice": null,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "reviewCount": 521,
+    "badge": "bestseller"
+  },
+  {
+    "id": 9,
+    "title": "Backpack",
+    "price": 1899,
+    "originalPrice": null,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop",
+    "rating": 4.1,
+    "reviewCount": 98,
+    "badge": null
+  },
+  {
+    "id": 10,
+    "title": "Laptop Stand",
+    "price": 1799,
+    "originalPrice": 2199,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop",
+    "rating": 4.0,
+    "reviewCount": 76,
+    "badge": "sale"
+  },
+  {
+    "id": 11,
+    "title": "Hoodie",
+    "price": 1999,
+    "originalPrice": null,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=300&fit=crop",
+    "rating": 4.5,
+    "reviewCount": 167,
+    "badge": "new"
+  },
+  {
+    "id": 12,
+    "title": "Wrist Watch",
+    "price": 5999,
+    "originalPrice": null,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "reviewCount": 289,
+    "badge": "bestseller"
+  }
+]
